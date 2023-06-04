@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kepala {
+  height: 18vw;
+  /* background-color: aqua; */
+  width: 100%;
+  z-index: 2;
+}
+
+.per1,
+.per2 {
+  position: relative;
+  font-size: 5vw;
+  padding-left: 18vw;
+  top: 12vw;
+  font-weight: 900;
+  z-index: inherit;
+}
+.per2 {
+  font-weight: 600;
+  z-index: inherit;
+  color: whitesmoke;
+}
+
+.forpro {
+  position: relative;
+  width: 14vw;
+  height: 14vw;
+  bottom: 7vw;
+  padding-left: 2vw;
+  border-radius: 100%;
+  z-index: inherit;
+}
+
+main {
+  position: relative;
+  background-color: #5e17eb;
+  height: 200vw;
+  top: 1vw;
+  z-index: -1;
+}
+
+.isi {
+  position: relative;
+  padding-top: 25vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.about {
+  height: 34vw;
+  background-color: whitesmoke;
+}
+
+.judul {
+  font-size: 4vw;
+}
+
+.p1 {
+  position: relative;
+  top: 1vw;
+  font-weight: 600;
+  text-indent: 3vw;
+  font-size: 3vw;
+  text-align: justify;
+  padding: 1vw;
+}
+
+.pendidikan {
+  position: relative;
+  height: 20vw;
+  top: 5vw;
+  color: black;
+  background-color: whitesmoke;
+}
+.schoolist {
+  position: relative;
+  padding-left: 4vw;
+  font-weight: 600;
+  font-size: 3vw;
+  top: 1vw;
+}
