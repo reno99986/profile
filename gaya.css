@@ -4,11 +4,35 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.kepala {
-  height: 18vw;
-  /* background-color: aqua; */
-  width: 100%;
+nav{
+  position:absolute;
   z-index: 2;
+  width: 100%;
+  text-align: right;
+  font-size: 2vw;
+  text-decoration: none;
+  color:#5e17eb;
+  margin-left: -3vw;
+  letter-spacing: 0.5vw;
+  margin-top: 3vw;
+  
+  
+  
+}
+a{
+  text-decoration: none;
+  color: #5e17eb;
+  font-weight: bold;
+}
+
+a:hover{
+  color: blueviolet;
+}
+
+.kepala {
+  position: relative;
+  height: 18vw;
+  width: 100%;
 }
 
 .per1,
@@ -37,27 +61,42 @@
 }
 
 main {
-  position: relative;
   background-color: #5e17eb;
-  height: 200vw;
-  top: 1vw;
+  height: 120vw;
+  top: 0.5vw;
   z-index: -1;
+}
+.warna {
+  background-color: #5e17eb;
+  height: 15vw;
+  margin: 0px;
+  padding: 0px;
 }
 
 .isi {
   position: relative;
-  padding-top: 25vw;
+  padding-top: 12vw;
   padding-left: 5vw;
   padding-right: 5vw;
 }
 
-.about {
+#about {
   height: 34vw;
   background-color: whitesmoke;
 }
 
 .judul {
   font-size: 4vw;
+}
+
+
+.wallpaper{
+  display: block;
+  position: relative;
+  height: 50vw;
+  text-align: center;
+  margin: 5vw;
+
 }
 
 .p1 {
@@ -70,12 +109,13 @@ main {
   padding: 1vw;
 }
 
-.pendidikan {
+#pendidikan {
   position: relative;
   height: 20vw;
   top: 5vw;
   color: black;
   background-color: whitesmoke;
+  padding-left: 1vw;
 }
 .schoolist {
   position: relative;
@@ -83,4 +123,30 @@ main {
   font-weight: 600;
   font-size: 3vw;
   top: 1vw;
+}
+
+#kontak{
+  position: relative;
+  height: 20vw;
+  top: 8vw;
+  background-color: whitesmoke;
+  width: 40vw;
+  padding-left: 1vw;
+}
+
+.logo1{
+
+  height: 2vw;
+}
+
+.logo2{
+
+  height: 3vw;
+}
+
+.tes{
+  font-size: 2.2vw;
+  font-style: normal;
+  color: blue;
+  
 }
